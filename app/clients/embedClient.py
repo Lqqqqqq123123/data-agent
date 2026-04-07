@@ -29,3 +29,4 @@ if __name__ == '__main__':
     resp = client.aembed_query("test")
 
     print(resp)
+

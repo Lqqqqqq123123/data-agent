@@ -12,8 +12,8 @@ logging:
 db_meta:
   host: localhost
   port: 3306
-  user: atguigu
-  password: Atguigu.123
+  user: root
+  password: liuqiang
   database: meta
 
 db_dw:
