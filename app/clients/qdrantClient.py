@@ -17,6 +17,8 @@ class QdrantClientManager:
     async def close(self):
         await self.client.close()
 
+
+# 向外暴露单例
 qdrant_client_manager = QdrantClientManager()
 
 if __name__ == '__main__':
@@ -31,5 +33,7 @@ if __name__ == '__main__':
         )
 
         print(resp)
+
+
 
     asyncio.run(test())
