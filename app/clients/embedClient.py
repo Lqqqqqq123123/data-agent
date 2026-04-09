@@ -21,6 +21,7 @@ class EmbeddingClientManager:
 
 # 向外暴露全局单例示例
 embedding_client_manager = EmbeddingClientManager()
+embedding_client_manager.init()
 
 if __name__ == '__main__':
     embedding_client_manager.init()

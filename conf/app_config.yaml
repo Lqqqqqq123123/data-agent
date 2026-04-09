@@ -1,6 +1,6 @@
 logging:
   file:
-    enable: true
+    enable: false
     level: INFO
     path: logs
     rotation: "10 MB"

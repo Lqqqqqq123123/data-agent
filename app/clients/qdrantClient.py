@@ -20,6 +20,7 @@ class QdrantClientManager:
 
 # 向外暴露单例
 qdrant_client_manager = QdrantClientManager()
+qdrant_client_manager.init()
 
 if __name__ == '__main__':
     async def test():

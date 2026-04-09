@@ -23,7 +23,7 @@ class EsClientManager:
 
 # 向外暴露
 es_client_manager = EsClientManager()
-
+es_client_manager.init()
 if __name__ == '__main__':
     async def test():
         es_client_manager.init()
